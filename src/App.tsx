@@ -10,7 +10,7 @@ const App = () => {
       <NavBar />
       <div className="main">
         <Routes>
-          <Route path="/" element={<Converter />} />
+          <Route path="/currency-converter" element={<Converter />} />
           <Route path="/history" element={<ConversionHistory />} />
         </Routes>
       </div>
