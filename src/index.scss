@@ -1,0 +1,42 @@
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $base-body;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.primary-btn {
+  background-color: $base-primary !important;
+  color: white !important;
+}
+
+.secondary-btn {
+  background-color: white !important;
+  border: 1px solid $base-primary !important;
+}
+
+.table-head {
+  color: #8D8D8D !important;
+}
+
+a {
+  &:link {
+    text-decoration: none;
+  }
+}

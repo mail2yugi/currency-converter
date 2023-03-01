@@ -1,0 +1,10 @@
+@import "../../../variables";
+
+.result {
+    color: $base-accent;
+}
+
+.result-container {
+    border-bottom: 1px solid $bsae-nav;
+    padding-bottom: 1rem;
+}

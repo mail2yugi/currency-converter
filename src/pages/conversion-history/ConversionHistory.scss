@@ -1,0 +1,26 @@
+@import "../../variables";
+
+.action-view {
+    visibility: hidden;
+    color: $base-primary;
+
+    &:hover {
+        visibility: visible;
+    }
+}
+
+.action-del {
+    visibility: hidden;
+    color: $base-warn;
+    cursor: pointer;
+}
+
+.table-row {
+    &:hover {
+
+        .action-view,
+        .action-del {
+            visibility: visible !important;
+        }
+    }
+}
