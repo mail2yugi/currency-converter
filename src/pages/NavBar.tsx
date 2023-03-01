@@ -15,7 +15,7 @@ export const NavBar = () => {
       <span className="app-name">
         Currency<strong>Exchange</strong>
       </span>
-      <NavLink to="/">CURRENCY CONVERTER</NavLink>
+      <NavLink to="/currency-converter">CURRENCY CONVERTER</NavLink>
       <NavLink to="/history">VIEW CONVERSION HISTORY</NavLink>
     </nav>
   );
