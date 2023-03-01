@@ -60,7 +60,7 @@ const ConversionHistory = () => {
                             spacing={1}
                             className="action-view"
                             component={Link}
-                            to="/"
+                            to="/currency-converter"
                             onClick={() => dispatch(setQueryObject(row))}
                           >
                             <Grid item xs={4}>
